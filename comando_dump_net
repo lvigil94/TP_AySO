@@ -1,0 +1,3 @@
+El comando para realizar un dump traffic de la red es: tcpdump
+Para realizar busquedas del tráfico de red con tcpdump, se puede utilizar el comando: tcpdump -i(interfaz) -w (archivo salida).pcap
+Por ejemplo: tcpdump -i eth0 -w trafico_red.pcap
