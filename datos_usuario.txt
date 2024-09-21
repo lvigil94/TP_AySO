@@ -1,0 +1,2 @@
+Usuario:root
+HOME_URL="https://www.debian.org/"
