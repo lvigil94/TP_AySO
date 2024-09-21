@@ -1,0 +1,227 @@
+    1  pwd
+    2  ssh_keygen
+    3  ssh-keygen
+    4  ls
+    5  cd root
+    6  cd .ssh
+    7  clear
+    8  exit
+    9  ssh-keygen
+   10  ssh-keygen
+   11  ls
+   12  c ..
+   13  c..
+   14  cd ..
+   15  ls
+   16  pwd
+   17  ls
+   18  cd lucas1994
+   19  ls
+   20  cd Documentos
+   21  ls
+   22  ls
+   23  cat /root/.ssh/id_rsa.pub
+   24  cd ..
+   25  ls
+   26  pwd
+   27  cd ..
+   28  mkdir repogit
+   29  ls
+   30  cd repogit
+   31  git clone git@github.com:lvigil94/TP_AySO.git
+   32  git config --global.user.email 
+   33  git config --global.user.email "lucas_vigil94@yahoo.com.ar"
+   34  cd
+   35  sudo apt install git-all
+   36  git version
+   37  git manual
+   38  git --help
+   39  ssh-keygen
+   40  cd
+   41  ls
+   42  cd home
+   43  ls
+   44  ls -l
+   45  pwd
+   46  cd Home
+   47  ls
+   48  cd root
+   49  cd home
+   50  cd user
+   51  exit
+   52  cd ..
+   53  ls
+   54  cd repogit
+   55  git clone git@github.com:lvigil94/TP_AySO.git
+   56  ls
+   57  cd TP_AySO/
+   58  pwd
+   59  ls -l
+   60  cat /etc/os-release
+   61  man grep
+   62  grep HOME_URL /etc/os-release
+   63  grep home_url /etc/os-release
+   64  ls
+   65  grep -i Home_url /etc/os-release
+   66  whoami
+   67  exit
+   68  cd..
+   69  cd ..
+   70  ls
+   71  cd repogit
+   72  cd TP_AySO/
+   73  exit
+   74  history
+   75  exit
+   76  cd ..
+   77  cd repogit
+   78  cd TP_AySO/
+   79  ls
+   80  rm usuario.txt
+   81  ls
+   82  rm
+   83  rm sistemaoperativo.txt
+   84  git add .
+   85  git commit -m "eliminé archivos"
+   86  git push
+   87  git status
+   88  ls
+   89  rm datos_usuario.txt
+   90  ls
+   91  git add
+   92  git add .
+   93  commit -m "Eliminé otros archivos"
+   94  git commit -m "Eliminé otros archivos"
+   95  git push{
+   96  git push
+   97  git status
+   98  clear
+   99  cd ..
+  100  cd ..
+  101  rm repogit
+  102  ls
+  103  rm -r repogit
+  104  las
+  105  ls
+  106  mkdir repogit
+  107  ls
+  108  git clone git@github.com:lvigil94/TP_AySO.git
+  109  ls
+  110  cd TP_AySO/
+  111  pwd
+  112  ls -l
+  113  cat /etc/os-release
+  114  man grep
+  115  grep HOME_URL /etc/os-release
+  116  grep home_url /etc/os-release
+  117  grep -i Home_url /etc/os-release
+  118  whoami
+  119  exit
+  120  cat /root/.ssh/id_rsa.pub
+  121  cd ..
+  122  ls
+  123  mkdir repogit
+  124  ls
+  125  cd repogit
+  126  pwd
+  127  git clone git@github.com:lvigil94/TP_AySO.git
+  128  ls
+  129  cd TP_AySO/
+  130  pwd
+  131  ls -l
+  132  cat /etc/os-release
+  133  man grep
+  134  grep HOME_URL /etc/os-release
+  135  grep home_url /etc/os-release
+  136  grep -i Home_url /etc/os-release
+  137  pwd
+  138  whoami
+  139  exit
+  140  echo "Usuario:$(whoami)" > datos_usuario.txt
+  141  cat datos_usuario.txt
+  142  grep -i Home_url /etc/os-release >> datos_usuario.txt
+  143  cat datos_usuario.txt
+  144  git add.
+  145  git add .
+  146  git config --global user.email "lucas_vigil94@yahoo.com.ar"
+  147  git config --global user.name "lvigil94"
+  148  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+  149  git status
+  150  git push
+  151  proc/cpuinfo
+  152  cat /proc/cpuinfo
+  153  grep -i "model name" /proc/cpuinfo
+  154  grep -i "model name" /proc/cpuinfo >> datos_usuario.txt
+  155  cat datos_usuario.txt
+  156  git add .
+  157  git commit -m "ADD: Añadiendo información de CPU"
+  158  git push
+  159  man sort
+  160  /etc/passwd
+  161  grep -v ":/sbin/nologin$" /etc/passwd | sort -t:-k7 | head -10 > lista_ordenada
+  162  ls
+  163  cat lista_ordenada
+  164  grep -v ":/sbin/nologin$" /etc/passwd | sort -t: -k7 | head -10 > lista_ordenada
+  165  ls
+  166  cat lista_ordenada
+  167  ls
+  168  git add .
+  169  git commit -m "ADD: Listado de usuarios ordenado"
+  170  git push
+  171  echo "El comando para realizar un dump traffic de la red es: "tcpdump" > comando_dump_net
+  172  ls
+  173  echo "El comando para realizar un dump traffic de la red es: "tcpdump"" > comando_dump_net
+  174  ls
+  175  cat comando_dump_net
+  176  "Para realizar busquedas del tráfico de red con tcpdump, se puede utilizar el comando: tcpdump -i(interfaz) -w (archivo salida).pcap" >> comando_dump_net
+  177  echo "Para realizar busquedas del tráfico de red con tcpdump, se puede utilizar el comando: tcpdump -i(interfaz) -w (archivo salida).pcap" >> comando_dump_net
+  178  ls
+  179  cat comando_dump_net
+  180  echo "Por ejemplo: tcpdump -i eth0 -w trafico_red.pcap" >> comando_dump_net
+  181  cat comando_dump_net
+  182  git add .
+  183  git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+  184  git push
+  185  ls
+  186  cat README.md
+  187  exit
+  188  vim README.md
+  189  ls
+  190  git status
+  191  heredoc  README.md
+  192  heredoc README.md
+  193  cat << EOF >> README.md
+Alumno: Lucas Vigil
+División: 211
+Turno: Tarde
+EOF
+
+  194  cat README.md
+  195  cat << EOF >> README.md
+EOF
+
+  196  cat README.md
+  197  ls
+  198  git add .
+  199  git commit -m "docs: Agregué mis datos al README.md"
+  200  git push
+  201  > README.md
+  202  ls
+  203  cat README.md
+  204  cat << EOF >> README.md
+
+
+Alumno: Lucas Vigil
+División: 211
+Turno: Tarde
+
+EOF
+
+  205  cat README.md
+  206  ls
+  207  git add .
+  208  git commit -m "docs: Se hizo una correción a los datos del alumno ingresados"
+  209  git push
+  210  git status
+  211  history -a
+  212  history > "Historial_comandos_Lucas_Vigil.txt"
