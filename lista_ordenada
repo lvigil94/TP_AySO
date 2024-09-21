@@ -1,0 +1,10 @@
+lucas1994:x:1000:1000:lucas.debian.12,,,:/home/lucas1994:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+Debian-gdm:x:113:122:Gnome Display Manager:/var/lib/gdm3:/bin/false
+gnome-initial-setup:x:112:65534::/run/gnome-initial-setup/:/bin/false
+speech-dispatcher:x:106:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:100:107:TPM software stack,,,:/var/lib/tpm:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:102:111:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+avahi:x:105:113:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
